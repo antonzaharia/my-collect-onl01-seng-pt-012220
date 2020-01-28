@@ -1,6 +1,6 @@
-def my_collect
+def my_collect(collection)
   if block_given?
-    puts "goog"
+    
   else
     puts "Sorry No block given"
   end
