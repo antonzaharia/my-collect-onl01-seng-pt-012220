@@ -6,9 +6,10 @@ def my_collect(collection)
     new_collection << yield collection[i]
     i = i + 1
     end
+    new_collection
   else
     puts "Sorry No block given"
   end
-  new_collection 
+   
 end
 
